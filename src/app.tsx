@@ -1,11 +1,24 @@
 import React from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.css";
 
-const App = () => {
+// Views
+import LandingView from "./views/landingView";
+import MissingView from "./views/missingView";
+
+const App : React.FunctionComponent = () => {
     // =========================================================
-    return <div>
-        <h1>John Minney III</h1>
-    </div>;
+    return <>
+        <BrowserRouter>
+            {/* Navbar will go here */}
+            <div style={{ height: "100vh", width: "100vw" }}>
+                <Routes>
+                    <Route path="/" element={<LandingView />} />
+                    <Route path="*" element={<MissingView />} />
+                </Routes>
+            </div>
+        </BrowserRouter>
+    </>;
 };
 
 export default App;
