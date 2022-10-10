@@ -46,7 +46,6 @@ const LandingView: React.FunctionComponent = () => {
                         <ul className="list-unstyled text-center">
                             <li>ReactJS</li>
                             <li>Django</li>
-                            <li>FastAPI</li>
                             <li>NodeJS/Express</li>
                             <li>Flutter</li>
                             <li>Native Android</li>
