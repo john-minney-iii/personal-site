@@ -3,8 +3,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.css";
 
 // Views
-import LandingView from "./views/landingView";
-import MissingView from "./views/missingView";
+import LandingView from "./views/landing-view";
+import MissingView from "./views/missing-view";
 
 // Components
 import Navbar from "./components/navbar";
