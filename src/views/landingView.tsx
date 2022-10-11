@@ -10,13 +10,14 @@ const LandingView: React.FunctionComponent = () => {
                     <img className="w-50 rounded-circle" src={ProfilePicture} alt="hey look its me" />
                 </div>
                 <div className="col d-flex align-items-left justify-content-left flex-column">
-                    <p>Web and Mobile Software Engineer</p>
                     <h1>John Minney III</h1>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse aliquet dui et dolor ornare,
-                        nec sagittis ipsum placerat. Vestibulum at ligula metus. Donec eget finibus quam. Aliquam sit amet efficitur leo.
-                        Integer blandit finibus leo, ut vehicula nunc mattis non. Aenean vulputate nisl et purus dictum, et ultricies justo aliquet.
-                        Proin et faucibus ante, eu condimentum erat. Aliquam tincidunt consequat tellus, et tempus purus porttitor id.
+                        Software engineer with 3+ years of experience in web, mobile, and desktop application
+                        development as well as custom software solutions for embedded systems. Proven ability to
+                        leverage full-stack knowledge and experience to build interactive and user-centered designs to
+                        scale. Extensive experience using front-end and back-end frameworks to build scalable and
+                        reliable web applications that are easy and intuitive to use. Comfortable using and learning
+                        multiple technology stacks and adapting my skills to match the project.
                     </p>
                     <div className="mt-2">
                         <button className="btn btn-primary rounded-pill me-2">Download Resume</button>
@@ -25,7 +26,7 @@ const LandingView: React.FunctionComponent = () => {
                 </div>
             </div>
         </div>
-        <hr className="mx-5 my-5 border border-dark" />
+        <hr className="mx-5 mt-4 mb-5 border border-dark" />
         <div className="vh-50 vw-100 d-flex align-items-center justify-content-center">
             <div className="container">
                 <div className="row">
