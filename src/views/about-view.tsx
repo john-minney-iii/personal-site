@@ -1,7 +1,7 @@
 import React from "react";
 import ProfilePicture from "../assets/images/profile-picture.jpg";
 
-const LandingView: React.FunctionComponent = () => {
+const AboutView : React.FunctionComponent = () => {
     // =====================================================
     return <div className="vh-100 vw-100 d-flex align-items-center justify-content-center flex-column">
         <div className="container">
@@ -93,4 +93,4 @@ const LandingView: React.FunctionComponent = () => {
     </div>;
 };
 
-export default LandingView;
+export default AboutView;

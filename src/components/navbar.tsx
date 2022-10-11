@@ -30,22 +30,22 @@ const Navbar = (props: NavbarProps) => {
                 >About</NavLink>
                 <NavLink 
                     className={navLinkClass("projects")} 
-                    to="/"
+                    to="/projects"
                     onClick={() => props.setCurrentTab("projects")}
                 >Projects</NavLink>
                 <NavLink 
                     className={navLinkClass("resume")} 
-                    to="/"
+                    to="/resume"
                     onClick={() => props.setCurrentTab("resume")}
                 >Resume</NavLink>
                 <NavLink 
                     className={navLinkClass("contact")} 
-                    to="/"
+                    to="/contact"
                     onClick={() => props.setCurrentTab("contact")}
                 >Contact</NavLink>
                 <NavLink 
                     className={navLinkClass("blog")} 
-                    to="/"
+                    to="/blog"
                     onClick={() => props.setCurrentTab("blog")}
                 >Blog</NavLink>
             </div>
