@@ -1,6 +1,6 @@
 import React from "react";
 
-const ContactView: React.FunctionComponent = () => {
+const ContactView = () => {
     // =====================================================
     return <div className="h-100 d-flex justify-content-center align-items-center flex-column">
         <h1>Contact View</h1>

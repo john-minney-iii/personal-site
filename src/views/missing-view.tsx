@@ -1,6 +1,6 @@
 import React from "react";
 
-const MissingView : React.FunctionComponent = () => {
+const MissingView = () => {
     // =====================================================
     return <div className="h-100 d-flex justify-content-center align-items-center flex-column">
         <h1>404 View Not Found</h1>

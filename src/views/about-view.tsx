@@ -1,7 +1,12 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import ProfilePicture from "../assets/images/profile-picture.jpg";
 
-const AboutView : React.FunctionComponent = () => {
+interface AboutViewProps {
+    setCurrentTab: (tab: string) => void;
+};
+
+const AboutView = (props: AboutViewProps) => {
     // =====================================================
     return <div className="vh-100 vw-100 d-flex align-items-center justify-content-center flex-column">
         <div className="container">
@@ -21,7 +26,11 @@ const AboutView : React.FunctionComponent = () => {
                     </p>
                     <div className="mt-2">
                         <button className="btn btn-primary rounded-pill me-2">Download Resume</button>
-                        <button className="btn btn-primary rounded-pill">Contact Me</button>
+                        <NavLink 
+                            className="btn btn-primary rounded-pill"
+                            to="/contact"
+                            onClick={() => props.setCurrentTab("contact")}
+                        >Contact Me</NavLink>
                     </div>
                 </div>
             </div>
@@ -49,9 +58,11 @@ const AboutView : React.FunctionComponent = () => {
                             <li>Django</li>
                             <li>NodeJS/Express</li>
                             <li>Flutter</li>
+                            <li>React Native</li>
                             <li>Native Android</li>
                             <li>MERN Stack</li>
                             <li>FARM Stack</li>
+                            <li>Electron</li>
                         </ul>
                     </div>
                     <div className="col d-flex align-items-center justify-content-top flex-column">

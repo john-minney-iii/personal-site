@@ -20,9 +20,13 @@ const Navbar = (props: NavbarProps) => {
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
         </button>
-        <span className="navbar-brand mb-0 ms-3 h1">John Minney III</span>
+        <NavLink 
+            className="navbar-brand mb-0 ms-3 h1"
+            to="/"
+            onClick={() => props.setCurrentTab("about")}
+        >John Minney III</NavLink>
         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div className="navbar-nav">
+            <div className="navbar-nav ms-auto me-2">
                 <NavLink 
                     className={navLinkClass("about")} 
                     to="/"

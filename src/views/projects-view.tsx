@@ -1,6 +1,6 @@
 import React from "react";
 
-const ProjectsView: React.FunctionComponent = () => {
+const ProjectsView = () => {
     // =====================================================
     return <div className="h-100 d-flex justify-content-center align-items-center flex-column">
         <h1>Projects View</h1>

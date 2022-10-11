@@ -22,7 +22,7 @@ const App : React.FunctionComponent = () => {
             <Navbar currentTab={currentTab} setCurrentTab={setCurrentTab} />
             <div style={{ height: "100vh", width: "100vw" }}>
                 <Routes>
-                    <Route path="/" element={<LandingView />} />
+                    <Route path="/" element={<LandingView setCurrentTab={setCurrentTab} />} />
                     <Route path="/projects" element={<ProjectsView />} />
                     <Route path="/resume" element={<ResumeView />} />
                     <Route path="/contact" element={<ContactView />} />

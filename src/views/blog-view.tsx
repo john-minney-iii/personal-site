@@ -1,6 +1,6 @@
 import React from "react";
 
-const BlogView: React.FunctionComponent = () => {
+const BlogView = () => {
     // =====================================================
     return <div className="h-100 d-flex justify-content-center align-items-center flex-column">
         <h1>Blog View</h1>

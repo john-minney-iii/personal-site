@@ -1,6 +1,6 @@
 import React from "react";
 
-const ResumeView: React.FunctionComponent = () => {
+const ResumeView = () => {
     // =====================================================
     return <div className="h-100 d-flex justify-content-center align-items-center flex-column">
         <h1>Resume View</h1>
